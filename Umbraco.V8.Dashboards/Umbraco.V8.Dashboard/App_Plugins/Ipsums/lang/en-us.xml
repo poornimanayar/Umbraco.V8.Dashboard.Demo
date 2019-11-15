@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="en" intName="English (US)" localName="English (US)" lcid="" culture="en-US">
+  <area alias="treeHeaders">
+    <key alias="ipsumsGroup">Meet the funny ipsums!</key>
+  </area>
+  <area alias="ipsumsGroup">
+    <key alias="intro">You can generate some ipsum content here.</key>
+    <key alias="generatebaconipsum">Generate Bacon Ipsum</key>
+    <key alias="generatedinoipsum">Generate Dino Ipsum</key>
+    <key alias="generateloremipsum">Generate Lorem Ipsum</key>
+    <key alias="includeLinks">Include links</key>
+    <key alias="includeUl">Include unordered list</key>
+    <key alias="includeOl">Include ordered list</key>
+    <key alias="includeHeadings">Include headings</key>
+    <key alias="includeCode">Include code/pre</key>
+  </area>
+</language>

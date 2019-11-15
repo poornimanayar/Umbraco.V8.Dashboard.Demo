@@ -1,0 +1,36 @@
+﻿<umb-box>
+<umb-box-content>
+<h3><localize key="giphyDashboard_intro">Lets search for some gifs!</localize></h3>
+<div class="giphyDashboard" ng-controller="GiphyDashboardController as vm">
+  <div class="gif-search">
+    <input class="-full-width-input" type="text" ng-model="vm.searchText" placeholder="Search for your gif..." required />
+  </div>
+  <umb-button disabled="vm.searchText ===''" type="button"
+              action="vm.searchGifs()"
+              button-style="success"
+              label-key="giphyDashboard_search">
+  </umb-button>
+  <div class="umb-panel-group__details-checks" ng-if="vm.gifs.length != 0">
+    <div class="umb-panel-group__details-check">
+      <div class="umb-panel-group__details-check-title">
+        <div class="umb-panel-group__details-check-description" ng-repeat="gif in vm.gifs">
+          <p>{{gif.title}}</p>
+          <a ng-href="{{gif.bitly_gif_url}}" target="_blank"><img src="{{gif.images.downsized.url}}" alt="{{gif.title}}" ng-if="gif.images.downsized" /></a>
+        
+        </div>
+      </div>
+      <div class="umb-panel-group__details-status-content">
+
+        <div class="umb-panel-group__details-status-actions">
+          <div class="umb-panel-group__details-status-action">
+            <umb-button type="button" action="vm.searchGifs()"
+                        button-style="action" size="xl"
+                        label-key="giphyDashboard_showMore"></umb-button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</umb-box-content>
+</umb-box>

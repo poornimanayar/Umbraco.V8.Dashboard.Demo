@@ -1,0 +1,10 @@
+﻿{
+  "javascript": [
+    "~/App_Plugins/Ipsums/backoffice/js/baconipsum.controller.js",
+    "~/App_Plugins/Ipsums/backoffice/js/dinoipsum.controller.js",
+    "~/App_Plugins/Ipsums/backoffice/js/loremipsum.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/Ipsums/backoffice/css/ipsum.css"
+  ]
+}

@@ -1,0 +1,10 @@
+﻿.pictureoftheday h1 {
+    color: darkmagenta;
+}
+figure {
+    margin: 0;
+}
+
+figcaption {
+    margin: 10px 0;
+}

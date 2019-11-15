@@ -1,0 +1,24 @@
+﻿{
+  "dashboards": [
+    {
+      "alias": "pictureOfTheDay",
+      "view": "~/App_Plugins/CustomDashboards/PictureOfTheDay/pictureoftheday.html",
+      "sections": [ "content" ],
+      "weight": -10
+    },
+    {
+      "alias": "giphyDashboard",
+      "view": "~/App_Plugins/CustomDashboards/GiphyDashboard/giphydashboard.html",
+      "sections": [ "giphySection" ],
+      "weight": 20
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/CustomDashboards/PictureOfTheDay/pictureoftheday.controller.js",
+    "~/App_Plugins/CustomDashboards/GiphyDashboard/giphydashboard.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/CustomDashboards/PictureOfTheDay/pictureoftheday.css",
+    "~/App_Plugins/CustomDashboards/GiphyDashboard/giphydashboard.css"
+  ]
+}

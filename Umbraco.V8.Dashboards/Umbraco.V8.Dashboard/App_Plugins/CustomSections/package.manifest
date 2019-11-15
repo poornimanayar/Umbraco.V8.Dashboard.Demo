@@ -1,0 +1,12 @@
+﻿{
+  "sections": [
+    {
+      "alias": "giphySection",
+      "name": "Giphy Section"
+    },
+    {
+      "alias": "ipsumSection",
+      "name": "Ipsum Section"
+    }
+  ]
+}

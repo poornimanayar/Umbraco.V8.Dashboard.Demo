@@ -1,0 +1,15 @@
+﻿<umb-box>
+  <umb-box-content>
+   <div class="pictureoftheday" ng-controller="PictureOfTheDayController as vm">
+  <h1>#H5YR {{vm.userName}}, here is an umbazing picture for you!</h1>
+  <div ng-if="vm.pictureOfTheDay">
+    <figure>
+      <figcaption>{{vm.pictureOfTheDay.explanation}}</figcaption>
+
+      <img src="{{vm.pictureOfTheDay.hdurl}}" alt="{{vm.pictureOfTheDay.title}}" />
+
+    </figure>
+  </div>
+</div>
+</umb-box-content>
+</umb-box>

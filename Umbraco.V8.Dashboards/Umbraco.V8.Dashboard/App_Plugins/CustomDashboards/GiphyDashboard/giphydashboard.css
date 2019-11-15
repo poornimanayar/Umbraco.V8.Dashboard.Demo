@@ -1,0 +1,38 @@
+﻿.gif-search {
+    margin: 10px 0;
+}
+
+.gif-url {
+    width: 35%;
+}
+
+.gif-image {
+    width: 45%;
+    float: left;
+}
+
+.gif-details {
+    width: 45%;
+    float: left;
+    margin-left: 10px;
+}
+
+
+.umb-panel-group__details-check-description {
+    display: inline-block;
+    max-height: 500px;
+    margin: 10px;
+}
+
+.umb-panel-group__details-check-description p {
+    font-size: 16px;
+}
+
+.umb-panel-group__details-check {
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.umb-panel-group__details-status-action {
+    text-align: center;
+}

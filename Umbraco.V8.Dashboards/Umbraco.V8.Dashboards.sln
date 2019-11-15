@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco.V8.Dashboard", "Umbraco.V8.Dashboard\Umbraco.V8.Dashboard.csproj", "{F46920D1-B0DC-482B-BFA0-1724EF712A94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F46920D1-B0DC-482B-BFA0-1724EF712A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46920D1-B0DC-482B-BFA0-1724EF712A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46920D1-B0DC-482B-BFA0-1724EF712A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F46920D1-B0DC-482B-BFA0-1724EF712A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5C9F27B-F145-4336-BC99-C81164EEE6E6}
+	EndGlobalSection
+EndGlobal
