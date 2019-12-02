@@ -237,3 +237,4 @@ C:\__POORNIMA\WORK\__FREELANCE\Umbraco-V8-Dashboards\Umbraco.V8.Dashboards\Umbra
 C:\__POORNIMA\WORK\__FREELANCE\Umbraco-V8-Dashboards\Umbraco.V8.Dashboards\Umbraco.V8.Dashboard\obj\Debug\Umbraco.V8.Dashboard.csproj.CopyComplete
 C:\__POORNIMA\WORK\__FREELANCE\Umbraco-V8-Dashboards\Umbraco.V8.Dashboards\Umbraco.V8.Dashboard\obj\Debug\Umbraco.V8.Dashboard.dll
 C:\__POORNIMA\WORK\__FREELANCE\Umbraco-V8-Dashboards\Umbraco.V8.Dashboards\Umbraco.V8.Dashboard\obj\Debug\Umbraco.V8.Dashboard.pdb
+C:\__POORNIMA\WORK\__FREELANCE\Umbraco-V8-Dashboards\Umbraco.V8.Dashboards\Umbraco.V8.Dashboard\obj\Debug\Umbraco.V8.Dashboard.csprojAssemblyReference.cache

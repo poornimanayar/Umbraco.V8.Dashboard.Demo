@@ -1,0 +1,18 @@
+﻿<umb-box>
+  <umb-box-header title-key="ipsumsTree_generatebaconipsum">
+  </umb-box-header>
+  <umb-box-content>
+   <div class="ipsum" ng-controller="BaconIpsumController as vm">
+      <div class="ipsum-search">
+        <label for="paragraphs">Number of paragraphs</label>
+        <input type="number" name="paragraphs" ng-model="vm.paragraphs" placeholder="5" required/>
+
+      </div>
+      <umb-button action="vm.getBaconIpsum()" type="button"
+                  button-style="success"
+                  label-key="ipsumsTree_generatebaconipsum"></umb-button>
+      <div class="umb-panel-group__details-check-description" id="baconipsum">
+      </div>
+    </div>
+  </umb-box-content>
+</umb-box>

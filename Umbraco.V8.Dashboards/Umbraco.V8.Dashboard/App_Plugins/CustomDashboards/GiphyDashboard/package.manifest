@@ -1,0 +1,16 @@
+﻿{
+  "dashboards": [
+    {
+      "alias": "giphyDashboard",
+      "view": "~/App_Plugins/CustomDashboards/GiphyDashboard/giphydashboard.html",
+      "sections": [ "giphySection" ],
+      "weight": 20
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/CustomDashboards/GiphyDashboard/giphydashboard.controller.js"
+  ],
+  "css": [
+   "~/App_Plugins/CustomDashboards/GiphyDashboard/giphydashboard.css"
+  ]
+}

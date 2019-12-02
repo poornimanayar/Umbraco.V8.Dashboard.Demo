@@ -395,23 +395,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\CustomDashboards\GiphyDashboard\lang\en-US.xml" />
+    <Content Include="App_Plugins\CustomDashboards\PictureOfTheDay\lang\en-GB.xml" />
+    <Content Include="App_Plugins\CustomDashboards\PictureOfTheDay\lang\en-US.xml" />
     <Content Include="App_Plugins\Ipsums\backoffice\css\ipsum.css" />
-    <Content Include="App_Plugins\Ipsums\backoffice\ipsumTreeAlias\lorem.html" />
-    <Content Include="App_Plugins\Ipsums\backoffice\ipsumTreeAlias\dino.html" />
-    <Content Include="App_Plugins\Ipsums\backoffice\ipsumTreeAlias\bacon.html" />
+    <Content Include="App_Plugins\Ipsums\backoffice\ipsumTreeAlias\dinoipsum.html" />
+    <Content Include="App_Plugins\Ipsums\backoffice\ipsumTreeAlias\baconipsum.html" />
     <Content Include="App_Plugins\Ipsums\backoffice\ipsumTreeAlias\overview.html" />
     <Content Include="App_Plugins\Ipsums\backoffice\js\baconipsum.controller.js" />
-    <Content Include="App_Plugins\Ipsums\backoffice\js\loremipsum.controller.js" />
     <Content Include="App_Plugins\Ipsums\backoffice\js\dinoipsum.controller.js" />
-    <Content Include="App_Plugins\Ipsums\lang\en-us.xml" />
+    <Content Include="App_Plugins\Ipsums\lang\en-GB.xml" />
+    <Content Include="App_Plugins\Ipsums\lang\en-US.xml" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.html" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.resource.js" />
     <Content Include="App_Plugins\CustomDashboards\GiphyDashboard\giphydashboard.controller.js" />
     <Content Include="App_Plugins\CustomDashboards\GiphyDashboard\giphydashboard.css" />
     <Content Include="App_Plugins\CustomDashboards\PictureOfTheDay\pictureoftheday.css" />
-    <Content Include="App_Plugins\CustomSections\lang\en-us.xml" />
-    <Content Include="App_Plugins\CustomDashboards\lang\en-us.xml" />
+    <Content Include="App_Plugins\CustomSections\lang\en-US.xml" />
     <Content Include="App_Plugins\CustomDashboards\GiphyDashboard\giphydashboard.html" />
     <Content Include="App_Plugins\CustomDashboards\PictureOfTheDay\pictureoftheday.html" />
     <Content Include="App_Plugins\StarterKit\lang\en-GB.xml" />
@@ -2194,7 +2195,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\IpsumDashboardTreeController.cs" />
-    <Compile Include="Controllers\CustomDashboardsTreeController.cs" />
+    <Compile Include="Controllers\GiphySectionTreeController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -2209,13 +2210,15 @@
     <Content Include="config\HealthChecks.config" />
     <Content Include="config\ClientDependency.config" />
     <Content Include="config\BackOfficeTours\getting-started.json" />
-    <Content Include="App_Plugins\CustomDashboards\package.manifest" />
+    <Content Include="App_Plugins\CustomDashboards\GiphyDashboard\package.manifest" />
     <Content Include="App_Plugins\StarterKit\backoffice\tours\create-content.json" />
     <Content Include="App_Plugins\StarterKit\backoffice\tours\data-structure.json" />
     <Content Include="App_Plugins\StarterKit\package.manifest" />
     <Content Include="App_Plugins\CustomSections\package.manifest" />
     <Content Include="App_Plugins\CustomDashboards\PictureOfTheDay\pictureoftheday.controller.js" />
     <Content Include="App_Plugins\Ipsums\backoffice\package.manifest" />
+    <Content Include="App_Plugins\CustomDashboards\PictureOfTheDay\package.manifest" />
+    <Content Include="App_Plugins\package.manifest" />
     <None Include="packages.config" />
     <Content Include="Umbraco\assets\fonts\helveticons\helveticons.eot" />
     <Content Include="Umbraco\assets\fonts\helveticons\helveticons.ttf" />
@@ -2352,6 +2355,10 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>App_Plugins\package.manifest</ApplicationManifest>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />

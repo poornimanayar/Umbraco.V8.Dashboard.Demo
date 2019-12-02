@@ -5,7 +5,16 @@
     vm.gifs = [];
 
     vm.searchGifs = function () {
+        vm.pageNumber = 0;
+        vm.gifs = [];
+        loadGifs();
+    };
 
+    vm.showMore = function() {
+        loadGifs();
+    };
+
+    function loadGifs() {
         $http({
             url: "https://api.giphy.com/v1/gifs/search",
             method: "GET",
@@ -15,18 +24,16 @@
                 limit: 25,
                 offset: (vm.pageNumber * 25),
                 rating: "G",
-                lang: "en" }
+                lang: "en"
+            }
         }).then(function (response) {
-            console.log(vm.pageNumber);
             if (response.data.meta.msg === "OK") {
                 angular.forEach(response.data.data,
-                    function(item) {
+                    function (item) {
                         vm.gifs.push(item);
                     });
             }
-            console.log(vm.gifs);
-            console.log(vm.gifs.length);
             vm.pageNumber = vm.pageNumber + 1;
         });
-    };
+    }
 });

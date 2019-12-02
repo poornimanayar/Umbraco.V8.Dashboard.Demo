@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language>
+  <area alias="dashboardTabs">
+    <key alias="giphyDashboard">Giphy Dashboard</key>
+  </area>
+  <area alias="giphyDashboard">
+    <key alias="search">Search for gifs</key>
+    <key alias="showMore">Show me more..</key>
+    <key alias="intro">Lets search for some gifs...</key>
+  </area>
+</language>

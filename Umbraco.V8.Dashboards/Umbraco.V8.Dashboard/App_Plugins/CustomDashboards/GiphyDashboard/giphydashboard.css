@@ -22,6 +22,7 @@
     display: inline-block;
     max-height: 500px;
     margin: 10px;
+    width: 45%;
 }
 
 .umb-panel-group__details-check-description p {

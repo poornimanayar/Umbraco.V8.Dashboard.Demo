@@ -1,0 +1,16 @@
+﻿{
+  "dashboards": [
+    {
+      "alias": "pictureOfTheDay",
+      "view": "~/App_Plugins/CustomDashboards/PictureOfTheDay/pictureoftheday.html",
+      "sections": [ "content" ],
+      "weight": -10
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/CustomDashboards/PictureOfTheDay/pictureoftheday.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/CustomDashboards/PictureOfTheDay/pictureoftheday.css"
+  ]
+}
